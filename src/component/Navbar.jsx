@@ -24,7 +24,7 @@ export default function Navbar() {
           <div className="text-green-600 text-5xl">
             {"<"}YAWER{"/>"}
           </div>
-          <div className="hidden md:flex md:items-center">
+          <div id="nav-menu" className="hidden md:flex md:items-center">
             <ul className="flex justify-between gap-8 text-2xl text-slate-300 font-semibold ">
               <li className="hover:text-3xl">
                 <AnchorLink href="#Home">Home</AnchorLink>

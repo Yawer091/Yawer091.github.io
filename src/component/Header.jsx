@@ -57,7 +57,7 @@ export default function Header() {
         </div>
       </div>
       <div className="md:w-2/5 ">
-        <img className="w-full h-full " src="/img3.png" alt="box" />
+        <img className="home-img w-full h-full " src="/img3.png" alt="box" />
       </div>
     </div>
   );
