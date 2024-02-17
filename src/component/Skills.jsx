@@ -5,8 +5,8 @@ import "boxicons/css/boxicons.min.css";
 export default function Skills() {
   return (
     <>
-      <div id="skills" className=" w-11/12 m-auto">
-        <div className="main-text text-center">
+      <div id="skills" className="nav-link skills w-11/12 m-auto">
+        <div className="skills-card-name main-text text-center">
           <h2 className=" text-6xl font-bold mb-2">
             <span className="text-yellow-500">My </span>Skills
           </h2>
