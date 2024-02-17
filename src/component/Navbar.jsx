@@ -30,7 +30,7 @@ export default function Navbar() {
                 <AnchorLink href="#Home">Home</AnchorLink>
               </li>
               <li className="hover:text-3xl">
-                <AnchorLink href="#Home">About</AnchorLink>
+                <AnchorLink href="#about">About</AnchorLink>
               </li>
               <li className="hover:text-3xl">
                 <AnchorLink href="#skills">Skills</AnchorLink>
