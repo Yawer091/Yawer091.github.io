@@ -17,7 +17,7 @@ const Projects = () => {
       title: "SUGAR COSMETIC",
       description: "This project Ecommerece website (SUGARCOSMETIC.com) Clone",
       techStack: "HTML | CSS | BOOTSTRAP | JAVASCRIPT",
-      deployedLink: "https://efiy-beauty.netlify.app/",
+      deployedLink: "https://nimble-lolly-366135.netlify.app/",
       githubLink: "https://github.com/Yawer091/vibrant-coding-1234",
     },
     {
