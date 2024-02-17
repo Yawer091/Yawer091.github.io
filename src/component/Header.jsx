@@ -27,7 +27,10 @@ export default function Header() {
             Full Stack Web Developer
           </span>
         </h2>
-        <p className="text-[20px] font-[500] tracking-tight text-gray-500 text-justify mb-10">
+        <p
+          id="about"
+          className="text-[20px] font-[500] tracking-tight text-gray-500 text-justify mb-10"
+        >
           About Me :- Dedicated and efficient full stack developer with over
           1200+ hours of hands-on coding experience in tech application and
           presentation layers, as well as tech databases. Proficient in building
