@@ -27,7 +27,7 @@ export default function Navbar() {
           <div id="nav-menu" className="hidden md:flex md:items-center">
             <ul className="flex justify-between gap-8 text-2xl text-slate-300 font-semibold ">
               <li className="hover:text-3xl">
-                <AnchorLink href="#Home">Home</AnchorLink>
+                <AnchorLink href="#home">Home</AnchorLink>
               </li>
               <li className="hover:text-3xl">
                 <AnchorLink href="#about">About</AnchorLink>
@@ -73,7 +73,7 @@ export default function Navbar() {
               </div>
               <ul className="flex flex-col items-center gap-3 font-semibold text-white text-3xl">
                 <li>
-                  <AnchorLink href="#Home" onClick={toggleMenu}>
+                  <AnchorLink href="#home" onClick={toggleMenu}>
                     Home
                   </AnchorLink>
                 </li>
@@ -104,7 +104,7 @@ export default function Navbar() {
                   </AnchorLink>
                 </li>
                 <li>
-                  <AnchorLink href="#Home" onClick={toggleMenu}>
+                  <AnchorLink href="#home" onClick={toggleMenu}>
                     RESUME
                   </AnchorLink>
                 </li>

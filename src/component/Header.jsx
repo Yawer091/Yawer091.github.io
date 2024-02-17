@@ -8,7 +8,7 @@ export default function Header() {
       const resumeUrl = "/Resume.pdf";
       const link = document.createElement("a");
       link.href = resumeUrl;
-      link.download = "Resume.pdf"; // Updated: remove leading slash
+      link.download = "Resume.pdf";
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
@@ -19,7 +19,7 @@ export default function Header() {
 
   return (
     <div
-      id="Home"
+      id="home"
       className="flex flex-col md:flex-row justify-between w-11/12 m-auto font-montserret "
     >
       <div id="about" className="md:w-1/2 p-[32px]">
