@@ -17,7 +17,7 @@ const Stats = () => {
       <div className="flex flex-col m-5 md:flex-row gap-4 items-center justify-center">
         <img
           id="github-stats-card"
-          src="https://github-readme-stats-sigma-five.vercel.app/api?username=Yawer091&theme=react&border_radius=4.6&hide_border=true&layout=compact&show_icons=true"
+          src="https://github-readme-stats.vercel.app/api?username=Yawer091&show=reviews,discussions_started,discussions_answered"
           alt="GitHub Stats"
           className="w-full md:w-1/2"
         />
