@@ -49,6 +49,7 @@ export default function Navbar() {
                   id="resume-button-1"
                   href="#Home"
                   onClick={downloadResume}
+                  target="_blank"
                 >
                   RESUME
                 </AnchorLink>
