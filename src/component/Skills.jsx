@@ -19,7 +19,7 @@ export default function Skills() {
             <div className="skills-card-img font-bold text-orange-400">
               <i className="bx bxl-java text-9xl mb-4 "></i>
             </div>
-            <h3 className="text-5xl font-bold mb-3">JAVA</h3>
+            <h3 className="skills-card-name text-5xl font-bold mb-3">JAVA</h3>
           </div>
           <div className="skills-card bg-slate-200 shadow-md p-8 rounded transition duration-500 ease-in-out text-center  hover:{bg-slate-300 transition ease-in-out delay-150 bg-blue-500} hover:-translate-y-1 hover:scale-110 hover:bg-slate-300 duration-300 ">
             <div className="skills-card-img">
