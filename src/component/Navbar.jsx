@@ -33,7 +33,7 @@ export default function Navbar() {
                 <AnchorLink href="#Home">About</AnchorLink>
               </li>
               <li className="hover:text-3xl">
-                <AnchorLink href="#Skills">Skills</AnchorLink>
+                <AnchorLink href="#skills">Skills</AnchorLink>
               </li>
               <li className="hover:text-3xl">
                 <AnchorLink href="#projects">Project</AnchorLink>
@@ -79,17 +79,17 @@ export default function Navbar() {
                   </AnchorLink>
                 </li>
                 <li>
-                  <AnchorLink href="#Skills" onClick={toggleMenu}>
+                  <AnchorLink href="#skills" onClick={toggleMenu}>
                     Skills
                   </AnchorLink>
                 </li>
                 <li>
-                  <AnchorLink href="/project" onClick={toggleMenu}>
+                  <AnchorLink href="#projects" onClick={toggleMenu}>
                     Project
                   </AnchorLink>
                 </li>
                 <li>
-                  <AnchorLink href="/contact" onClick={toggleMenu}>
+                  <AnchorLink href="#contact" onClick={toggleMenu}>
                     Contact
                   </AnchorLink>
                 </li>

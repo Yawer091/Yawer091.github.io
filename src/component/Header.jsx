@@ -22,13 +22,15 @@ export default function Header() {
           <span className="text-[22px] font-semibold block mb-2">
             Hello I&#39;m
           </span>
-          <span className="text-6xl font-bold block mb-2">YAWER ATIQUE</span>
+          <span id="user-detail-name" className="text-6xl font-bold block mb-2">
+            YAWER ATIQUE
+          </span>
           <span className="text-3xl font-semibold block">
             Full Stack Web Developer
           </span>
         </h2>
         <p
-          id="about"
+          id="user-detail-intro"
           className="text-[20px] font-[500] tracking-tight text-gray-500 text-justify mb-10"
         >
           About Me :- Dedicated and efficient full stack developer with over
