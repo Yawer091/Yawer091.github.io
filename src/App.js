@@ -4,7 +4,7 @@ import Header from "./component/Header";
 import Skills from "./component/Skills";
 import "boxicons";
 import "@fortawesome/fontawesome-free/css/all.min.css";
-import AnchorLink from "react-anchor-link-smooth-scroll";
+
 import "boxicons/css/boxicons.min.css";
 import Contact from "./component/Contact";
 import Footer from "./component/Footer";
