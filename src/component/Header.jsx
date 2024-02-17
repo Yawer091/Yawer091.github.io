@@ -17,7 +17,7 @@ export default function Header() {
       id="Home"
       className="flex flex-col md:flex-row justify-between w-11/12 m-auto font-montserret "
     >
-      <div className="md:w-1/2 p-8">
+      <div className="md:w-1/2 p-[32px]">
         <h2 className="mb-5 text-center">
           <span className="text-[22px] font-semibold block mb-2">
             Hello I&#39;m
