@@ -22,7 +22,7 @@ export default function Header() {
       id="home"
       className="flex flex-col md:flex-row justify-between w-11/12 m-auto font-montserret "
     >
-      <div id="about" className="md:w-1/2 p-[32px]">
+      <div id="about" className="about section md:w-1/2 p-[32px]">
         <h2 className="mb-5 text-center">
           <span className="text-[22px] font-semibold block mb-2">
             Hello I&#39;m
@@ -50,7 +50,7 @@ export default function Header() {
           <button
             id="resume-button-2"
             onClick={downloadResume}
-            className="w-full    md:w-auto    pt-4 pl-8 pr-8 pb-4 text-3xl  bg-blue-500 text-white font-semibold rounded-lg mb-4 md:mb-0 hover:{bg-slate-300 transition ease-in-out delay-150 bg-blue-500} hover:-translate-y-1 hover:scale-110 hover:bg-blue-300 duration-300"
+            className="w-full md:w-auto pt-4 pl-8 pr-8 pb-4 text-3xl  bg-blue-500 text-white font-semibold rounded-lg mb-4 md:mb-0 hover:{bg-slate-300 transition ease-in-out delay-150 bg-blue-500} hover:-translate-y-1 hover:scale-110 hover:bg-blue-300 duration-300"
           >
             Resume
           </button>

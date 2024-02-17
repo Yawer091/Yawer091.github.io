@@ -27,27 +27,38 @@ export default function Navbar() {
           <div id="nav-menu" className="hidden md:flex md:items-center">
             <ul className="flex justify-between gap-8 text-2xl text-slate-300 font-semibold ">
               <li className="hover:text-3xl">
-                <AnchorLink href="#home">Home</AnchorLink>
+                <AnchorLink href="#home" className="nav-link home">
+                  Home
+                </AnchorLink>
               </li>
               <li className="hover:text-3xl">
-                <AnchorLink href="#about">About</AnchorLink>
+                <AnchorLink href="#about" className="nav-link about">
+                  About
+                </AnchorLink>
               </li>
               <li className="hover:text-3xl">
-                <AnchorLink href="#skills">Skills</AnchorLink>
+                <AnchorLink href="#skills" className="nav-link skills">
+                  Skills
+                </AnchorLink>
               </li>
               <li className="hover:text-3xl">
-                <AnchorLink href="#projects">Project</AnchorLink>
+                <AnchorLink href="#projects" className="nav-link projects">
+                  Project
+                </AnchorLink>
               </li>
               <li className="hover:text-3xl">
-                <AnchorLink href="#contact">Contact</AnchorLink>
+                <AnchorLink href="#contact" className="nav-link contact">
+                  Contact
+                </AnchorLink>
               </li>
               <li className="hover:text-3xl">
                 <AnchorLink href="#Stats">Statistics</AnchorLink>
               </li>
               <li className="  text-white hover:text-4xl">
                 <AnchorLink
-                  id="resume-button-1"
-                  href="#Home"
+                  id="resume-link-1"
+                  className="nav-link resume"
+                  href="#home"
                   onClick={downloadResume}
                   target="_blank"
                 >
@@ -104,7 +115,11 @@ export default function Navbar() {
                   </AnchorLink>
                 </li>
                 <li>
-                  <AnchorLink href="#home" onClick={toggleMenu}>
+                  <AnchorLink
+                    href="#home"
+                    onClick={toggleMenu}
+                    id="resume-link-1"
+                  >
                     RESUME
                   </AnchorLink>
                 </li>
