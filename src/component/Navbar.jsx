@@ -45,7 +45,11 @@ export default function Navbar() {
                 <AnchorLink href="#Stats">Statistics</AnchorLink>
               </li>
               <li className="  text-white hover:text-4xl">
-                <AnchorLink href="#Home" onClick={downloadResume}>
+                <AnchorLink
+                  id="resume-button-1"
+                  href="#Home"
+                  onClick={downloadResume}
+                >
                   RESUME
                 </AnchorLink>
               </li>

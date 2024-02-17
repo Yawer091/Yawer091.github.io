@@ -16,6 +16,7 @@ const Stats = () => {
 
       <div className="flex flex-col m-5 md:flex-row gap-4 items-center justify-center">
         <img
+          id="github-stats-card"
           src="https://github-readme-stats-sigma-five.vercel.app/api?username=Yawer091&theme=react&border_radius=4.6&hide_border=true&layout=compact&show_icons=true"
           alt="GitHub Stats"
           className="w-full md:w-1/2"
@@ -30,6 +31,7 @@ const Stats = () => {
         </div>
       </div>
       <img
+        id="github-top-langs"
         src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Yawer091&theme=react&border_radius=4.6&show_icons=true&count_private=true&hide_border=true&show_icons=true"
         alt="Top Languages"
         className="w-full my-5 mx-auto md:w-1/2"
@@ -43,7 +45,7 @@ const Stats = () => {
         />
 
         <img
-          className="w-full my-10 h-64"
+          className="react-activity-calendar w-full my-10 h-64"
           id="github-contributions"
           src="https://ghchart.rshah.org/Yawer091"
           alt="Github chart"
