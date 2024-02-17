@@ -39,7 +39,7 @@ export default function Header() {
         <div className="flex flex-col md:flex-row md:justify-between w-full md:w-3/4 gap-4 mt-4 items-center">
           <button
             onClick={downloadResume}
-            className="w-full  md:w-auto pt-4 pl-8 pr-8 pb-4 text-3xl  bg-blue-500 text-white font-semibold rounded-lg mb-4 md:mb-0 hover:{bg-slate-300 transition ease-in-out delay-150 bg-blue-500} hover:-translate-y-1 hover:scale-110 hover:bg-blue-300 duration-300"
+            className="w-full  md:w-auto    pt-4 pl-8 pr-8 pb-4 text-3xl  bg-blue-500 text-white font-semibold rounded-lg mb-4 md:mb-0 hover:{bg-slate-300 transition ease-in-out delay-150 bg-blue-500} hover:-translate-y-1 hover:scale-110 hover:bg-blue-300 duration-300"
           >
             Resume
           </button>
