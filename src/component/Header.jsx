@@ -4,14 +4,19 @@ import "boxicons/css/boxicons.min.css";
 
 export default function Header() {
   const downloadResume = () => {
-    const resumeUrl = "/Resume.pdf";
-    const link = document.createElement("a");
-    link.href = resumeUrl;
-    link.download = "/Resume.pdf";
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+    try {
+      const resumeUrl = "/Resume.pdf";
+      const link = document.createElement("a");
+      link.href = resumeUrl;
+      link.download = "Resume.pdf"; // Updated: remove leading slash
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    } catch (error) {
+      console.error("Error during resume download:", error);
+    }
   };
+
   return (
     <div
       id="Home"
@@ -50,13 +55,16 @@ export default function Header() {
             Resume
           </button>
           <div className="flex gap-7">
-            <a href="/" className=" text-xl">
+            <a href="https://twitter.com/Yawerahmed2" className=" text-xl">
               <i className="fa-brands fa-x-twitter fa-2xl"></i>
             </a>
-            <a href="/" className=" text-xl">
+            <a
+              href="https://www.linkedin.com/in/yawer-atique"
+              className=" text-xl"
+            >
               <i className="fa-brands fa-linkedin fa-2xl"></i>
             </a>
-            <a href="/" className=" text-xl">
+            <a href="https://github.com/Yawer091" className=" text-xl">
               <i className="fa-brands fa-github fa-2xl"></i>
             </a>
           </div>
