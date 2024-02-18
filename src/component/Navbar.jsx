@@ -19,10 +19,12 @@ export default function Navbar() {
   };
   return (
     <>
-      <div className="bg-gradient-to-r from-teal-400 to-blue-400 p-4 mb-5">
+      <div className=" w-full fixed opacity-0.5 bg-gradient-to-r from-teal-400 to-blue-400 p-4 mb-5">
         <div className="flex justify-between w-11/12 m-auto items-center">
           <div className="text-green-600 text-5xl">
-            {"<"}YAWER{"/>"}
+            <a href="#home">
+              {"<"}YAWER{"/>"}
+            </a>
           </div>
           <div id="nav-menu" className="hidden md:flex md:items-center">
             <ul className="flex justify-between gap-8 text-2xl text-slate-300 font-semibold ">

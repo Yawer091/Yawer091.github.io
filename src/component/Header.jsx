@@ -1,6 +1,7 @@
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "boxicons";
 import "boxicons/css/boxicons.min.css";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 export default function Header() {
   const downloadResume = () => {
@@ -55,16 +56,25 @@ export default function Header() {
             Resume
           </button>
           <div className="flex gap-7">
-            <a href="https://twitter.com/Yawerahmed2" className=" text-xl">
+            <a
+              href="https://twitter.com/Yawerahmed2"
+              className=" text-xl"
+              target="_blank"
+            >
               <i className="fa-brands fa-x-twitter fa-2xl"></i>
             </a>
             <a
               href="https://www.linkedin.com/in/yawer-atique"
+              target="_blank"
               className=" text-xl"
             >
               <i className="fa-brands fa-linkedin fa-2xl"></i>
             </a>
-            <a href="https://github.com/Yawer091" className=" text-xl">
+            <a
+              href="https://github.com/Yawer091"
+              className=" text-xl"
+              target="_blank"
+            >
               <i className="fa-brands fa-github fa-2xl"></i>
             </a>
           </div>

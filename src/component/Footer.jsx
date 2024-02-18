@@ -1,3 +1,5 @@
+import AnchorLink from "react-anchor-link-smooth-scroll";
+
 const Footer = () => {
   return (
     <footer id="Footer" className=" bg-gray-700">
@@ -10,9 +12,9 @@ const Footer = () => {
           </p>
         </div>
         <div className=" ">
-          <a href="#Home" className="text-white text-2xl">
+          <AnchorLink href="#home" className="text-white text-2xl">
             <i className="bx bx-up-arrow-alt"></i>
-          </a>
+          </AnchorLink>
         </div>
       </div>
     </footer>
