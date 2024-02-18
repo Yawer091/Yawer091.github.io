@@ -64,7 +64,7 @@ export default function Navbar() {
                   onClick={downloadResume}
                   target="_blank"
                 >
-                  RESUME
+                  <button id="resume-button-1"> RESUME</button>
                 </AnchorLink>
               </li>
             </ul>
