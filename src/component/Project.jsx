@@ -45,7 +45,7 @@ const Projects = () => {
       <section id="projects" className=" w-[80%] mx-auto  font-serif">
         <div className="main-text mb-9">
           <h2 className=" text-[42px] font-semibold text-center">
-            <p className="text-[white]">My Projects</p>
+            <p className="text-[white] pt-[20px]">My Projects</p>
           </h2>
         </div>
         <div

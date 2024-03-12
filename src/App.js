@@ -10,11 +10,12 @@ import Contact from "./component/Contact";
 import Footer from "./component/Footer";
 import Projects from "./component/Project";
 import Stats from "./component/Stats";
-
+import HomePage from "./component/HOME";
 function App() {
   return (
     <>
       <Navbar />
+      <HomePage />
       <Header />
       <Projects />
       <Skills />
