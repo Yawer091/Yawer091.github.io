@@ -11,7 +11,7 @@ const Projects = () => {
       githubLink: "https://github.com/Yawer091/AirBnb",
     },
     {
-      imageSrc: `/KTravel.png`,
+      imageSrc: `KTravel.png`,
       title: "K Travel",
       description:
         "KTravel is a dynamic travel and tourism website tailored for South Korea, designed to provide a seamless user experience for travelers looking to explore the country. This platform integrates advanced web functionalities, including user registration, booking options, and an admin panel for site management, all within a responsive web design.",
