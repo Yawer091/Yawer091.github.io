@@ -85,9 +85,9 @@ export default function Header() {
             </div>
           </div>
         </div>
-        <div className="md:w-[40%] ">
+        <div className="md:w-[40%]">
           <img
-            className="home-img w-[90%] h-[400px] object-cover bg-none"
+            className="home-img ml-[40px] mt-[30px] w-[90%] h-[400px] object-cover rounded"
             src="/img31.png"
             alt="box"
           />
