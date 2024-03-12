@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.font-kaushan-script {
+  font-family: "Kaushan Script", cursive;
+}
+.font-montez {
+  font-family: "Montez", cursive;
+  /* font-weight: 400; */
+  font-style: normal;
+}
+
+.font-mont {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}

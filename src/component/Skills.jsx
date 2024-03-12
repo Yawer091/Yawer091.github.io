@@ -1,106 +1,68 @@
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "boxicons";
-
 import "boxicons/css/boxicons.min.css";
+
 export default function Skills() {
   return (
-    <>
-      <div id="skills" className=" w-11/12 m-auto">
-        <div className=" main-text text-center">
-          <h2 className=" text-6xl font-bold mb-2">
+    <div className="bg-[#001233] text-[#FFF] p-[30px] font-mont">
+      <div id="skills" className="w-[90%] m-auto">
+        <div className="main-text text-center">
+          <h2 className="text-6xl font-bold mb-2">
             <span className="text-yellow-500">My </span>Skills
           </h2>
-          <p className=" text-7xl">What I am Expert In</p>
+          <p className="text-4xl font-bold">What I am Expert In</p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mx-auto mt-8">
-          {/* C++ Skill */}
-          <div className="skills-card bg-slate-200 p-8 rounded  text-center shadow-md  hover:{bg-slate-300 transition ease-in-out delay-150 bg-blue-500} hover:-translate-y-1 hover:scale-110 hover:bg-slate-300 duration-300">
-            <div className="skills-card-img font-bold text-orange-400">
-              <i className=" bx bxl-java text-9xl mb-4 "></i>
-            </div>
-            <h3 className="skills-card-name text-5xl font-bold mb-3">JAVA</h3>
-          </div>
-          <div className="skills-card bg-slate-200 shadow-md p-8 rounded transition duration-500 ease-in-out text-center  hover:{bg-slate-300 transition ease-in-out delay-150 bg-blue-500} hover:-translate-y-1 hover:scale-110 hover:bg-slate-300 duration-300 ">
-            <div className="skills-card-img">
-              <i className="bx bxl-c-plus-plus text-9xl mb-4 text-blue-600"></i>
-            </div>
-            <h3 className="skills-card-name text-5xl font-bold mb-3">C++</h3>
-          </div>
-
-          {/* JavaScript Skill */}
-          <div className="skills-card bg-slate-200 shadow-md p-8 rounded transition duration-500 ease-in-out text-center  hover:{bg-slate-300 transition ease-in-out delay-150 bg-blue-500} hover:-translate-y-1 hover:scale-110 hover:bg-slate-300 duration-300">
-            <div className="skills-card-img">
-              <i className="bx bxl-javascript text-9xl mb-4 text-yellow-400"></i>
-            </div>
-            <h3 className="skills-card-name text-5xl font-bold mb-3 ">
-              JavaScript
-            </h3>
-          </div>
-
-          {/* HTML Skill */}
-          <div className="skills-card bg-slate-200 shadow-md p-8 rounded transition duration-500 ease-in-out text-center  hover:{bg-slate-300 transition ease-in-out delay-150 bg-blue-500} hover:-translate-y-1 hover:scale-110 hover:bg-slate-300 duration-300">
-            <div className="skills-card-img">
-              <i className="bx bxl-html5 text-9xl mb-4 text-orange-500"></i>
-            </div>
-            <h3 className="skills-card-name text-5xl font-bold mb-3">HTML</h3>
-          </div>
-          <div className="skills-card bg-slate-200 shadow-md p-8 rounded transition duration-500 ease-in-out text-center  hover:{bg-slate-300 transition ease-in-out delay-150 bg-blue-500} hover:-translate-y-1 hover:scale-110 hover:bg-slate-300 duration-300">
-            <div className="skills-card-img">
-              <i className="bx bxl-css3 text-9xl mb-4  text-blue-500"></i>
-            </div>
-            <h3 className="skills-card-name text-5xl font-bold mb-3">CSS</h3>
-          </div>
-          <div className="skills-card bg-slate-200 shadow-md p-8 rounded transition duration-500 ease-in-out text-center  hover:{bg-slate-300 transition ease-in-out delay-150 bg-blue-500} hover:-translate-y-1 hover:scale-110 hover:bg-slate-300 duration-300">
-            <div className="skills-card-img">
-              <i className="bx bxl-tailwind-css text-9xl mb-4  text-blue-400"></i>
-            </div>
-            <h3 className="skills-card-name text-5xl font-bold mb-3">
-              Tailwind CSS
-            </h3>
-          </div>
-          <div className="skills-card bg-slate-200 shadow-md p-8 rounded transition duration-500 ease-in-out text-center  hover:{bg-slate-300 transition ease-in-out delay-150 bg-blue-500} hover:-translate-y-1 hover:scale-110 hover:bg-slate-300 duration-300">
-            <div className="skills-card-img">
-              <i className="bx bxl-bootstrap text-9xl mb-4 text-blue-800"></i>
-            </div>
-            <h3 className="skills-card-name text-5xl font-bold mb-3  ">
-              Bootstrap
-            </h3>
-          </div>
-          <div className="skills-card bg-slate-200 shadow-md p-8 rounded transition duration-500 ease-in-out text-center  hover:{bg-slate-300 transition ease-in-out delay-150 bg-blue-500} hover:-translate-y-1 hover:scale-110 hover:bg-slate-300 duration-300">
-            <div className="skills-card-img">
-              <i className="bx bxl-github text-9xl mb-4"></i>
-            </div>
-            <h3 className="skills-card-name text-5xl font-bold mb-3">Github</h3>
-          </div>
-          <div className="skills-card bg-slate-200 shadow-md p-8 rounded transition duration-500 ease-in-out text-center  hover:{bg-slate-300 transition ease-in-out delay-150 bg-blue-500} hover:-translate-y-1 hover:scale-110 hover:bg-slate-300 duration-300">
-            <div className="skills-card-img">
-              <i className="bx bxl-figma text-9xl mb-4 text-red-400"></i>
-            </div>
-            <h3 className="skills-card-name text-5xl font-bold mb-3 ">Figma</h3>
-          </div>
-          <div className="skills-card bg-slate-200 shadow-md p-8 rounded text-center  hover:{bg-slate-300 transition ease-in-out delay-150 bg-blue-500} hover:-translate-y-1 hover:scale-110 hover:bg-slate-300 duration-300">
-            <div className="skills-card-img">
-              <i className="bx bxl-git text-9xl mb-4 text-orange-500"></i>
-            </div>
-            <h3 className="skills-card-name text-5xl font-bold mb-3">Git</h3>
-          </div>
-          <div className="skills-card bg-slate-200 shadow-md p-8 rounded transition duration-500 ease-in-out text-center  hover:{bg-slate-300 transition ease-in-out delay-150 bg-blue-500} hover:-translate-y-1 hover:scale-110 hover:bg-slate-300 duration-300">
-            <div className="skills-card-img">
-              <i className="bx bxl-visual-studio text-9xl mb-4 text-blue-700"></i>
-            </div>
-            <h3 className="skills-card-name text-5xl font-bold mb-3 ">
-              Visual Studio
-            </h3>
-          </div>
-          <div className="skills-card bg-slate-200 shadow-md p-8 rounded transition duration-500 ease-in-out text-center  hover:{bg-slate-300 transition ease-in-out delay-150 bg-blue-500} hover:-translate-y-1 hover:scale-110 hover:bg-slate-300 duration-300">
-            <div className="skills-card-img">
-              <i className="bx bx-cube text-9xl mb-4  text-green-800"></i>
-            </div>
-            <h3 className="skills-card-name text-5xl font-bold mb-3">DSA</h3>
-          </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mx-auto mt-8 p-[6px] cursor-pointer">
+          {skillsData.map((skill, index) => (
+            <SkillCard key={index} {...skill} />
+          ))}
         </div>
       </div>
-    </>
+    </div>
   );
 }
+
+const SkillCard = ({ iconClass, color, name }) => (
+  <div
+    className={`skills-card bg-slate-200 p-[4px] rounded-[12px] text-center shadow-md hover:bg-slate-300 transition duration-300 ${color}`}
+  >
+    <div className="skills-card-img font-bold">
+      <i className={`bx ${iconClass} text-9xl mb-[8px]`}></i>
+    </div>
+    <h3 className="skills-card-name text-2xl font-bold text-black">{name}</h3>
+  </div>
+);
+
+const skillsData = [
+  { iconClass: "bxl-java", color: "text-orange-400", name: "JAVA" },
+  { iconClass: "bxl-c-plus-plus", color: "text-blue-900", name: "C++" },
+  { iconClass: "bxl-javascript", color: "text-yellow-400", name: "JavaScript" },
+  { iconClass: "bxl-html5", color: "text-orange-500", name: "HTML" },
+  { iconClass: "bxl-css3", color: "text-blue-500", name: "CSS" },
+  {
+    iconClass: "bxl-tailwind-css",
+    color: "text-blue-400",
+    name: "Tailwind CSS",
+  },
+  { iconClass: "bxl-bootstrap", color: "text-blue-800", name: "Bootstrap" },
+  { iconClass: "bxl-github", color: "text-black", name: "Github" },
+  { iconClass: "bxl-figma", color: "text-red-400", name: "Figma" },
+  { iconClass: "bxl-git", color: "text-black", name: "Git" },
+  {
+    iconClass: "bxl-visual-studio",
+    color: "text-blue-700",
+    name: "Visual Studio",
+  },
+  { iconClass: "bx-cube", color: "text-green-800", name: "DSA" },
+  {
+    iconClass: "bxl-nodejs",
+    color: "text-green-800",
+    name: "Nodejs",
+  },
+  {
+    iconClass: "bxl-mongodb",
+    color: "text-green-400",
+    name: "MongoDB",
+  },
+];

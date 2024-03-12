@@ -10,14 +10,14 @@ import Contact from "./component/Contact";
 import Footer from "./component/Footer";
 import Projects from "./component/Project";
 import Stats from "./component/Stats";
+
 function App() {
   return (
     <>
       <Navbar />
       <Header />
-      <Skills />
-      {/* <ProjectsSection /> */}
       <Projects />
+      <Skills />
       <Stats />
       <Contact />
       <Footer />
