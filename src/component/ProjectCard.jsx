@@ -16,7 +16,7 @@ const ProjectCard = ({
       />
       <div className="flex-1 lg:w-2/3 flex flex-col justify-between">
         <div>
-          <h5 className="text-xl lg:text-2xl text-white font-semibold mb-2">
+          <h5 className="project-title text-xl lg:text-2xl text-white font-semibold mb-2">
             {title}
           </h5>
           <p className="text-sm lg:text-base text-gray-300 mb-4">
