@@ -50,6 +50,16 @@ const Stats = () => {
             className=" w-[70%]"
           />
         </a>
+
+        <div class="calendar react-activity-calendar mt-[16px]">
+          <img
+            id="github-contributions"
+            src="https://ghchart.rshah.org/Gulshaba-Parveen"
+            alt="Github chart"
+            className="w-[80%] m-auto h-[250px]"
+          />
+                    
+        </div>
       </div>
     </div>
   );

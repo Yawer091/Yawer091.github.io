@@ -39,7 +39,7 @@ const ProjectCard = ({
             href={githubLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-gray-600 hover:bg-gray-700 text-white px-4 py-2 rounded-lg transition duration-300 ease-in-out"
+            className="project-github-link bg-gray-600 hover:bg-gray-700 text-white px-4 py-2 rounded-lg transition duration-300 ease-in-out"
           >
             GitHub
           </a>
