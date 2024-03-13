@@ -31,7 +31,7 @@ const ProjectCard = ({
             href={deployedLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-lg mr-4 transition duration-300 ease-in-out"
+            className="project-deployed-link bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-lg mr-4 transition duration-300 ease-in-out"
           >
             View Live
           </a>
