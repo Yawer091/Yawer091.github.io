@@ -19,7 +19,7 @@ const ProjectCard = ({
           <h5 className="project-title text-xl lg:text-2xl text-white font-semibold mb-2">
             {title}
           </h5>
-          <p className="text-sm lg:text-base text-gray-300 mb-4">
+          <p className="project-description text-sm lg:text-base text-gray-300 mb-4">
             {description}
           </p>
           <p className="text-sm lg:text-base text-gray-300">
