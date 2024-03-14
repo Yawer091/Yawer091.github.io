@@ -26,7 +26,7 @@ const Projects = () => {
       description:
         "This project Ecommerece website (SUGARCOSMETIC.com) Clone which is use to order beauty and  fashion product SUGAR Cosmetics is a cruelty-free makeup brand that is high on style and higher on performance. The brand is inspired by and targeted towards bold, independent women who refuse to be stereotyped into roles.",
       techStack: "HTML | CSS | BOOTSTRAP | JAVASCRIPT",
-      deployedLink: "https://efiy-beauty.netlify.app/",
+      deployedLink: "https://nimble-lolly-366135.netlify.app/",
       githubLink: "https://github.com/Yawer091/vibrant-coding-1234",
     },
     {

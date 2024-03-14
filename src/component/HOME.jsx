@@ -21,11 +21,11 @@ const HomePage = () => {
               href="#"
               className="resume-btn"
               onClick={() => {
-                window.open("/Resume.pdf");
-                window.open("/Resume.pdf");
+                window.open("/yawer_atique-resume.pdf");
+                window.open("/yawer_atique-resume.pdf");
               }}
             >
-              <button className="btn-border flex items-center text-white w-full md:w-auto px-[20px] py-[10px] text-[16px] bg-blue-700 text-white rounded-lg mb-4 md:mb-0 hover:{bg-slate-300 transition ease-in-out delay-150 bg-blue-500} hover:-translate-y-1 hover:scale-110 hover:bg-blue-300 duration-300 border-[2px]">
+              <button className="btn-border flex items-center  w-full md:w-auto px-[20px] py-[10px] text-[16px] bg-blue-700 text-white rounded-lg mb-4 md:mb-0 hover:{bg-slate-300 transition ease-in-out delay-150 bg-blue-500} hover:-translate-y-1 hover:scale-110 hover:bg-blue-300 duration-300 border-[2px]">
                 <img
                   src="https://icon-library.com/images/view-icon-png/view-icon-png-15.jpg"
                   alt="View Resume"

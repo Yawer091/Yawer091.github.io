@@ -6,10 +6,10 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
 export default function Header() {
   const downloadResume = () => {
     try {
-      const resumeUrl = "/Resume.pdf";
+      const resumeUrl = "/yawer_atique-resume.pdf";
       const link = document.createElement("a");
       link.href = resumeUrl;
-      link.download = "Resume.pdf";
+      link.download = "yawer_atique-resume.pdf";
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);

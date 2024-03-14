@@ -9,10 +9,10 @@ export default function Navbar() {
     setMenuOpen(!isMenuOpen);
   };
   const downloadResume = () => {
-    const resumeUrl = "/RESUME.pdf";
+    const resumeUrl = "/yawer_atique-resume.pdf";
     const link = document.createElement("a");
     link.href = resumeUrl;
-    link.download = "/RESUME.pdf";
+    link.download = "/yawer_atique-resume.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
