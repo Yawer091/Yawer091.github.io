@@ -2,6 +2,15 @@ import ProjectCard from "./ProjectCard";
 const Projects = () => {
   const projectData = [
     {
+      imageSrc: `HOMECHEF.png`,
+      title: "HOMECHEF",
+      description:
+        "HOMECHEF is a user-friendly food ordering app that offers a wealth of features for food enthusiasts of all Categories.",
+      techStack: "React | Redux | Chakara UI | NodeJs | ExpressJs | MongoDB ",
+      deployedLink: "https://code-kaavya-2345.vercel.app/",
+      githubLink: "https://github.com/Yawer091/Code-Kaavya-2345",
+    },
+    {
       imageSrc: `AIRBNB.png`,
       title: "AirBnb",
       description:
