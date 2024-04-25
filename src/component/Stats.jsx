@@ -54,7 +54,7 @@ const Stats = () => {
         <div class="calendar react-activity-calendar mt-[16px]">
           <img
             id="github-contributions"
-            src="https://ghchart.rshah.org/Gulshaba-Parveen"
+            src="https://ghchart.rshah.org/Yawer091"
             alt="Github chart"
             className="w-[80%] m-auto h-[250px]"
           />
